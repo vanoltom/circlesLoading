@@ -1,0 +1,188 @@
+
+#container0 {
+    width: 270px;
+    height: 235px;
+    overflow: hidden;
+    position: absolute;
+    top: calc(50% - 37px);
+    left: calc(50% - 135px);
+}
+#loader0 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-top-color: #490a3d;
+    border-right-color: #bd1550;
+    border-left-color: #e97f02;
+    border-bottom-color: #f8ca00;
+    border-radius: 100%;
+    box-sizing: border-box;
+    animation: rotate 5s ease-in-out infinite;
+    transform: rotate(360deg)
+}
+#container01 {
+    width: 270px;
+    height: 235px;
+    overflow: hidden;
+    position: absolute;
+    top: calc(50% - 37px);
+    left: calc(50% - 135px);
+}
+#loader01 {
+    width: 75px;
+    height: 75px;
+    border-style: solid;
+    border-top-color: #490a3d;
+    border-right-color: #bd1550;
+    border-left-color: #e97f02;
+    border-bottom-color: #f8ca00;
+    border-radius: 100%;
+    box-sizing: border-box;
+    animation: rotate 5s ease-in-out infinite;
+    transform: rotate(-3600deg)
+}
+#container {
+    width: 270px;
+    height: 235px;
+    overflow: hidden;
+    position: absolute;
+    top: calc(50% - 37px);
+    left: calc(50% - 135px);
+}
+#loader {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-top-color: #490a3d;
+    border-right-color: #bd1550;
+    border-left-color: #e97f02;
+    border-bottom-color: #f8ca00;
+    border-radius: 100%;
+    box-sizing: border-box;
+    animation: rotate 5s ease-in-out infinite;
+    transform: rotate(-360deg)
+}
+#container11 {
+    width: 270px;
+    height: 235px;
+    overflow: hidden;
+    position: absolute;
+    top: calc(50% - 37px);
+    left: calc(50% - 135px);
+}
+#loader11 {
+    width: 175px;
+    height: 175px;
+    border-style: solid;
+    border-top-color: #490a3d;
+    border-right-color: #bd1550;
+    border-left-color: #e97f02;
+    border-bottom-color: #f8ca00;
+    border-radius: 100%;
+    box-sizing: border-box;
+    animation: rotate 5s ease-in-out infinite;
+    transform: rotate(-360000deg)
+}
+#container12 {
+    width: 270px;
+    height: 235px;
+    overflow: hidden;
+    position: absolute;
+    top: calc(50% - 37px);
+    left: calc(50% - 135px);
+}
+#loader12 {
+    width: 125px;
+    height: 125px;
+    border-style: solid;
+    border-top-color: #490a3d;
+    border-right-color: #bd1550;
+    border-left-color: #e97f02;
+    border-bottom-color: #f8ca00;
+    border-radius: 100%;
+    box-sizing: border-box;
+    animation: rotate 5s ease-in-out infinite;
+    transform: rotate(360deg)
+}
+#container1 {
+    width: 270px;
+    height: 235px;
+    overflow: hidden;
+    position: absolute;
+    top: calc(50% - 37px);
+    left: calc(50% - 135px);
+}
+#loader1 {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-top-color: #490a3d;
+    border-right-color: #bd1550;
+    border-left-color: #e97f02;
+    border-bottom-color: #f8ca00;
+    border-radius: 100%;
+    box-sizing: border-box;
+    animation: rotate 5s ease-in-out infinite;
+    transform: rotate(360000deg)
+}
+
+#container2 {
+    width: 270px;
+    height: 235px;
+    overflow: hidden;
+    position: absolute;
+    top: calc(50% - 37px);
+    left: calc(50% - 135px);
+}
+#loader2 {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-top-color: #490a3d;
+    border-right-color: #bd1550;
+    border-left-color: #e97f02;
+    border-bottom-color: #f8ca00;
+    border-radius: 100%;
+    box-sizing: border-box;
+    animation: rotate 5s ease-in-out infinite;
+    transform: rotate(-3600deg)
+}
+@keyframes rotate {
+    0% { border-width: 25px; }
+    25% { border-width: 3px; }
+    50% {
+        transform: rotate(350deg);
+        border-width: 100px;
+    }
+    75% { border-width: 3px;}
+    100% { border-width: 25px;}
+}
+body {
+    background-color: #490a3d;
+    animation: rainbow 5.5s infinite ease-in-out;
+}
+@keyframes rainbow {
+
+    0% {
+        background-color: #bd1550;
+    }
+    20% {
+        background-color: #e97f02;
+    }
+    40% {
+        background-color: #f8ca00;
+    }
+    60% {
+        background-color: #e97f02;
+    }
+    80% {
+        background-color: #bd1550;
+    }
+    100% {
+        background-color: #490a3d;
+    }
+
+
+}
+
+
